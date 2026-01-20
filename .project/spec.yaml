@@ -149,7 +149,7 @@ execution:
             url: http://localhost:8501
     resources:
         gpu:
-            requested: 2
+            requested: 1
         sharedMemoryMB: 1024
     secrets:
         - variable: NGC_API_KEY
