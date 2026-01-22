@@ -11,7 +11,7 @@ services:
           devices:
             - driver: nvidia
               capabilities: ["gpu"]
-              count: 1
+              count: 0
     ipc: host
     environment:
       - NGC_API_KEY=${NGC_API_KEY}
@@ -36,7 +36,7 @@ services:
           devices:
             - driver: nvidia
               capabilities: ["gpu"]
-              count: 1
+              count: 0
     ipc: host
     environment:
       - NGC_API_KEY=${NGC_API_KEY}
