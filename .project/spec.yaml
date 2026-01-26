@@ -46,7 +46,7 @@ environment:
           value: "16384"
 # Since you're on Spark, ensure the key is passed for local auth
         - name: NGC_API_KEY
-          value: "NGC_API_KEY=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"          
+          value: " "          
     # This points AI Workbench to your docker-compose file for sidecar NIMs
     compose_file_path: "docker-compose.yaml"
         apps:
